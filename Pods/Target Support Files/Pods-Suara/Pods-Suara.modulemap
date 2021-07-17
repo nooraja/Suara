@@ -1,0 +1,6 @@
+framework module Pods_Suara {
+  umbrella header "Pods-Suara-umbrella.h"
+
+  export *
+  module * { export * }
+}

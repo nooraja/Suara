@@ -3,27 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		568DB6B575806E36E487F777 /* Pods_Suara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F518F789CBF124B5CAD6A3D6 /* Pods_Suara.framework */; };
 		7C3725DB26A14AE400D20A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3725DA26A14AE400D20A30 /* AppDelegate.swift */; };
 		7C3725DD26A14AE400D20A30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3725DC26A14AE400D20A30 /* SceneDelegate.swift */; };
-		7C3725DF26A14AE400D20A30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3725DE26A14AE400D20A30 /* ViewController.swift */; };
-		7C3725E226A14AE400D20A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3725E026A14AE400D20A30 /* Main.storyboard */; };
 		7C3725E426A14AE500D20A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3725E326A14AE500D20A30 /* Assets.xcassets */; };
 		7C3725E726A14AE500D20A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C3725E526A14AE500D20A30 /* LaunchScreen.storyboard */; };
+		7C3725EF26A14BA800D20A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C3725EE26A14BA800D20A30 /* GoogleService-Info.plist */; };
+		7C3725F426A1706400D20A30 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3725F326A1706400D20A30 /* LoginController.swift */; };
+		7C7FFDF326A2ACF60009C29E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFDF226A2ACF60009C29E /* UIView+Extension.swift */; };
+		7C7FFDF626A2B1AE0009C29E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFDF526A2B1AE0009C29E /* LoginView.swift */; };
+		7C7FFDF826A2B2710009C29E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFDF726A2B2710009C29E /* UIFont.swift */; };
+		7C7FFE0226A2B5A80009C29E /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE0126A2B5A80009C29E /* IndentedTextField.swift */; };
+		7C7FFE0426A2B6060009C29E /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE0326A2B6060009C29E /* UILabel+Extension.swift */; };
+		7C7FFE0626A2D1CE0009C29E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE0526A2D1CE0009C29E /* LoginViewModel.swift */; };
+		7C7FFE0B26A2D8050009C29E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7FFE0A26A2D8050009C29E /* Alamofire */; };
+		7C7FFE0D26A2D81A0009C29E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE0C26A2D81A0009C29E /* APIManager.swift */; };
+		7C7FFE0F26A2D84F0009C29E /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE0E26A2D84F0009C29E /* EndpointType.swift */; };
+		7C7FFE1126A2D8D20009C29E /* ShopEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE1026A2D8D20009C29E /* ShopEndpoint.swift */; };
+		7C7FFE1326A2D90C0009C29E /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE1226A2D90C0009C29E /* APIConstant.swift */; };
+		7C7FFE1626A2DCCB0009C29E /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE1526A2DCCB0009C29E /* MainTabbarController.swift */; };
+		7C7FFE1826A2DD7D0009C29E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7FFE1726A2DD7D0009C29E /* HomeController.swift */; };
+		7C9E102B26A327E900CB55CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9E102A26A327E900CB55CF /* HomeView.swift */; };
+		7C9E102E26A32B4B00CB55CF /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9E102D26A32B4B00CB55CF /* IGListKit */; };
+		7C9E103126A32BB900CB55CF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 7C9E103026A32BB900CB55CF /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F9CDFCE5F9E399792EB4AD0 /* Pods-Suara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Suara.debug.xcconfig"; path = "Target Support Files/Pods-Suara/Pods-Suara.debug.xcconfig"; sourceTree = "<group>"; };
 		7C3725D726A14AE400D20A30 /* Suara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3725DA26A14AE400D20A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C3725DC26A14AE400D20A30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C3725DE26A14AE400D20A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C3725E126A14AE400D20A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C3725E326A14AE500D20A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C3725E626A14AE500D20A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C3725E826A14AE500D20A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C3725EE26A14BA800D20A30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C3725F326A1706400D20A30 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7C7FFDF226A2ACF60009C29E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		7C7FFDF526A2B1AE0009C29E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7C7FFDF726A2B2710009C29E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		7C7FFDF926A2B2B40009C29E /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoRegular.ttf; sourceTree = "<group>"; };
+		7C7FFDFA26A2B2B40009C29E /* RobotoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoBold.ttf; sourceTree = "<group>"; };
+		7C7FFDFB26A2B2B40009C29E /* RobotoMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoMedium.ttf; sourceTree = "<group>"; };
+		7C7FFDFC26A2B2B40009C29E /* RobotoBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoBlack.ttf; sourceTree = "<group>"; };
+		7C7FFDFD26A2B2B40009C29E /* RobotoLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoLight.ttf; sourceTree = "<group>"; };
+		7C7FFDFE26A2B2B40009C29E /* RobotoThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoThin.ttf; sourceTree = "<group>"; };
+		7C7FFE0126A2B5A80009C29E /* IndentedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndentedTextField.swift; sourceTree = "<group>"; };
+		7C7FFE0326A2B6060009C29E /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		7C7FFE0526A2D1CE0009C29E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7C7FFE0C26A2D81A0009C29E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7C7FFE0E26A2D84F0009C29E /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		7C7FFE1026A2D8D20009C29E /* ShopEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopEndpoint.swift; sourceTree = "<group>"; };
+		7C7FFE1226A2D90C0009C29E /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		7C7FFE1526A2DCCB0009C29E /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		7C7FFE1726A2DD7D0009C29E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7C9E102A26A327E900CB55CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2A5F9ECF25A8B152779684E /* Pods-Suara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Suara.release.xcconfig"; path = "Target Support Files/Pods-Suara/Pods-Suara.release.xcconfig"; sourceTree = "<group>"; };
+		F518F789CBF124B5CAD6A3D6 /* Pods_Suara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Suara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9E103126A32BB900CB55CF /* FacebookLogin in Frameworks */,
+				7C9E102E26A32B4B00CB55CF /* IGListKit in Frameworks */,
+				7C7FFE0B26A2D8050009C29E /* Alamofire in Frameworks */,
+				568DB6B575806E36E487F777 /* Pods_Suara.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +85,8 @@
 			children = (
 				7C3725D926A14AE400D20A30 /* Suara */,
 				7C3725D826A14AE400D20A30 /* Products */,
+				EF0995646BAB38F6BD14CCE8 /* Pods */,
+				A4F003CB21047E5278A84BBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,107 @@
 		7C3725D926A14AE400D20A30 /* Suara */ = {
 			isa = PBXGroup;
 			children = (
-				7C3725DA26A14AE400D20A30 /* AppDelegate.swift */,
-				7C3725DC26A14AE400D20A30 /* SceneDelegate.swift */,
-				7C3725DE26A14AE400D20A30 /* ViewController.swift */,
-				7C3725E026A14AE400D20A30 /* Main.storyboard */,
-				7C3725E326A14AE500D20A30 /* Assets.xcassets */,
-				7C3725E526A14AE500D20A30 /* LaunchScreen.storyboard */,
-				7C3725E826A14AE500D20A30 /* Info.plist */,
+				7C7FFE1426A2DC630009C29E /* Support */,
+				7C7FFE1526A2DCCB0009C29E /* MainTabbarController.swift */,
+				7C9E103226A3393800CB55CF /* Scene */,
+				7C7FFE0826A2D7B30009C29E /* Networking */,
+				7C7FFE0026A2B3350009C29E /* Extension */,
 			);
 			path = Suara;
+			sourceTree = "<group>";
+		};
+		7C7FFDF426A2AED30009C29E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7C3725F326A1706400D20A30 /* LoginController.swift */,
+				7C7FFDF526A2B1AE0009C29E /* LoginView.swift */,
+				7C7FFE0526A2D1CE0009C29E /* LoginViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7C7FFDFF26A2B2C30009C29E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FFDF726A2B2710009C29E /* UIFont.swift */,
+				7C7FFDFC26A2B2B40009C29E /* RobotoBlack.ttf */,
+				7C7FFDFA26A2B2B40009C29E /* RobotoBold.ttf */,
+				7C7FFDFD26A2B2B40009C29E /* RobotoLight.ttf */,
+				7C7FFDFB26A2B2B40009C29E /* RobotoMedium.ttf */,
+				7C7FFDF926A2B2B40009C29E /* RobotoRegular.ttf */,
+				7C7FFDFE26A2B2B40009C29E /* RobotoThin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7C7FFE0026A2B3350009C29E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FFE0126A2B5A80009C29E /* IndentedTextField.swift */,
+				7C7FFDF226A2ACF60009C29E /* UIView+Extension.swift */,
+				7C7FFE0326A2B6060009C29E /* UILabel+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7C7FFE0826A2D7B30009C29E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FFE0C26A2D81A0009C29E /* APIManager.swift */,
+				7C7FFE0E26A2D84F0009C29E /* EndpointType.swift */,
+				7C7FFE1026A2D8D20009C29E /* ShopEndpoint.swift */,
+				7C7FFE1226A2D90C0009C29E /* APIConstant.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7C7FFE1426A2DC630009C29E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FFDFF26A2B2C30009C29E /* Font */,
+				7C3725EE26A14BA800D20A30 /* GoogleService-Info.plist */,
+				7C3725E526A14AE500D20A30 /* LaunchScreen.storyboard */,
+				7C3725E826A14AE500D20A30 /* Info.plist */,
+				7C3725DA26A14AE400D20A30 /* AppDelegate.swift */,
+				7C3725DC26A14AE400D20A30 /* SceneDelegate.swift */,
+				7C3725E326A14AE500D20A30 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7C9E102926A327CA00CB55CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FFE1726A2DD7D0009C29E /* HomeController.swift */,
+				7C9E102A26A327E900CB55CF /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7C9E103226A3393800CB55CF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				7C9E102926A327CA00CB55CF /* Home */,
+				7C7FFDF426A2AED30009C29E /* Auth */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		A4F003CB21047E5278A84BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F518F789CBF124B5CAD6A3D6 /* Pods_Suara.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0995646BAB38F6BD14CCE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CDFCE5F9E399792EB4AD0 /* Pods-Suara.debug.xcconfig */,
+				F2A5F9ECF25A8B152779684E /* Pods-Suara.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +211,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C3725EB26A14AE500D20A30 /* Build configuration list for PBXNativeTarget "Suara" */;
 			buildPhases = (
+				26851B5A08419504C4963D3F /* [CP] Check Pods Manifest.lock */,
 				7C3725D326A14AE400D20A30 /* Sources */,
 				7C3725D426A14AE400D20A30 /* Frameworks */,
 				7C3725D526A14AE400D20A30 /* Resources */,
+				A497135C96F402B37519E590 /* [CP] Embed Pods Frameworks */,
+				21382BEE1EB5790949F86D0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Suara;
+			packageProductDependencies = (
+				7C7FFE0A26A2D8050009C29E /* Alamofire */,
+				7C9E102D26A32B4B00CB55CF /* IGListKit */,
+				7C9E103026A32BB900CB55CF /* FacebookLogin */,
+			);
 			productName = Suara;
 			productReference = 7C3725D726A14AE400D20A30 /* Suara.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +255,11 @@
 				Base,
 			);
 			mainGroup = 7C3725CE26A14AE400D20A30;
+			packageReferences = (
+				7C7FFE0926A2D8050009C29E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7C9E102C26A32B4A00CB55CF /* XCRemoteSwiftPackageReference "IGListKit" */,
+				7C9E102F26A32BB900CB55CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 7C3725D826A14AE400D20A30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,35 +275,99 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C3725E726A14AE500D20A30 /* LaunchScreen.storyboard in Resources */,
+				7C3725EF26A14BA800D20A30 /* GoogleService-Info.plist in Resources */,
 				7C3725E426A14AE500D20A30 /* Assets.xcassets in Resources */,
-				7C3725E226A14AE400D20A30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21382BEE1EB5790949F86D0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26851B5A08419504C4963D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Suara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A497135C96F402B37519E590 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Suara/Pods-Suara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C3725D326A14AE400D20A30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C3725DF26A14AE400D20A30 /* ViewController.swift in Sources */,
+				7C7FFE0426A2B6060009C29E /* UILabel+Extension.swift in Sources */,
+				7C7FFDF626A2B1AE0009C29E /* LoginView.swift in Sources */,
+				7C7FFE1626A2DCCB0009C29E /* MainTabbarController.swift in Sources */,
+				7C7FFE0D26A2D81A0009C29E /* APIManager.swift in Sources */,
+				7C3725F426A1706400D20A30 /* LoginController.swift in Sources */,
+				7C7FFE1126A2D8D20009C29E /* ShopEndpoint.swift in Sources */,
+				7C7FFE1326A2D90C0009C29E /* APIConstant.swift in Sources */,
+				7C7FFE0226A2B5A80009C29E /* IndentedTextField.swift in Sources */,
+				7C7FFDF826A2B2710009C29E /* UIFont.swift in Sources */,
 				7C3725DB26A14AE400D20A30 /* AppDelegate.swift in Sources */,
+				7C7FFE0F26A2D84F0009C29E /* EndpointType.swift in Sources */,
+				7C7FFDF326A2ACF60009C29E /* UIView+Extension.swift in Sources */,
 				7C3725DD26A14AE400D20A30 /* SceneDelegate.swift in Sources */,
+				7C9E102B26A327E900CB55CF /* HomeView.swift in Sources */,
+				7C7FFE0626A2D1CE0009C29E /* LoginViewModel.swift in Sources */,
+				7C7FFE1826A2DD7D0009C29E /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C3725E026A14AE400D20A30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C3725E126A14AE400D20A30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C3725E526A14AE500D20A30 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,7 +497,9 @@
 		};
 		7C3725EC26A14AE500D20A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9CDFCE5F9E399792EB4AD0 /* Pods-Suara.debug.xcconfig */;
 			buildSettings = {
+				API_BASE_URL = " https://private-4639ce-ecommerce56.apiary-mock.com";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,13 +512,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.co.Suara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7C3725ED26A14AE500D20A30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A5F9ECF25A8B152779684E /* Pods-Suara.release.xcconfig */;
 			buildSettings = {
+				API_BASE_URL = " https://private-4639ce-ecommerce56.apiary-mock.com";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,7 +533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.co.Suara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +559,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C7FFE0926A2D8050009C29E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		7C9E102C26A32B4A00CB55CF /* XCRemoteSwiftPackageReference "IGListKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/instagram/IGListKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7C9E102F26A32BB900CB55CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C7FFE0A26A2D8050009C29E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7FFE0926A2D8050009C29E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7C9E102D26A32B4B00CB55CF /* IGListKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9E102C26A32B4A00CB55CF /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListKit;
+		};
+		7C9E103026A32BB900CB55CF /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C9E102F26A32BB900CB55CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C3725CF26A14AE400D20A30 /* Project object */;
 }

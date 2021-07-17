@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "8c6eeab820a3c6a3a638dd48c67270ad559410b4",
+          "version": "11.0.1"
+        }
+      },
+      {
+        "package": "IGListKit",
+        "repositoryURL": "https://github.com/instagram/IGListKit",
+        "state": {
+          "branch": null,
+          "revision": "36da20119ca70c0a8b46ef0acc93b3bcb5a9ea69",
+          "version": "4.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
