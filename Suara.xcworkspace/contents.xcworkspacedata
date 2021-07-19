@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/noor/Documents/Suara/Suara/CoreData/Favorite+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/noor/Documents/Suara/Suara/CoreData/Favorite+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Suara.xcodeproj">
    </FileRef>
    <FileRef

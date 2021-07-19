@@ -20,12 +20,12 @@
         }
       },
       {
-        "package": "IGListKit",
-        "repositoryURL": "https://github.com/instagram/IGListKit",
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage",
         "state": {
           "branch": null,
-          "revision": "36da20119ca70c0a8b46ef0acc93b3bcb5a9ea69",
-          "version": "4.0.0"
+          "revision": "76dd4b49110b8624317fc128e7fa0d8a252018bc",
+          "version": "5.11.1"
         }
       }
     ]
